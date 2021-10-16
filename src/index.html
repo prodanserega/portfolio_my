@@ -3,19 +3,142 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Заголовок страницы</title>
+    <title>Portfolio_my</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-    <include src="./partials/example.html"></include>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="logo">
+            <img
+              class="logo__img"
+              src="./images/Logo.svg"
+              alt="logo"
+              width="150px"
+              height="150px"
+            />
+          </div>
+          <nav class="nav">
+            <a class="nav__link" href="#">Home</a>
+            <a class="nav__link" href="#">About me</a>
+            <a class="nav__link" href="#">Portfolio</a>
+            <a class="nav__link" href="#">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <span class="hero__ellipse"></span>
+          <img
+            class="hero__smaile"
+            src="./images/emoticon.svg"
+            alt="smaile"
+            width="300"
+            height="300"
+            fill="#fff"
+          />
 
-    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
-    <script src="./index.js"></script>
+          <h1 class="hero__tatle">Hello, I’m Sergiy Prodan</h1>
+          <div class="hero__item">
+            I am Full Stack Developer. Do you need front-end or back-end development? Then contact
+            me
+          </div>
+          <a class="hero__btn" href="#">Contact me</a>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section class="about">
+        <div class="container">
+          <div class="about__inner">
+            <a class="about__link" href="#">
+              <img
+                class="about__img"
+                src="./images/HTML5.svg"
+                alt="HTML5"
+                width="130px"
+                height="130px"
+              />
+            </a>
+            <a class="about__link" href="#"
+              ><img
+                class="about__img"
+                src="./images/css.svg"
+                alt="css"
+                width="130px"
+                height="130px"
+            /></a>
+            <a class="about__link" href="#"
+              ><img
+                class="about__img"
+                src="./images/github.svg"
+                alt="github"
+                width="130px"
+                height="130px"
+            /></a>
+            <a class="about__link" href="#"
+              ><img
+                class="about__img"
+                src="./images/figma.svg"
+                alt="figma"
+                width="130px"
+                height="130px"
+            /></a>
+            <a class="about__link" href="#"
+              ><img
+                class="about__img"
+                src="./images/javascript.svg"
+                alt="javascript"
+                width="130px"
+                height="130px"
+            /></a>
+            <a class="about__link" href="#"
+              ><img
+                class="about__img"
+                src="./images/npm.svg"
+                alt="nodejs"
+                width="130px"
+                height="130px"
+            /></a>
+            <a class="about__link" href="#"
+              ><img
+                class="about__img"
+                src="./images/nodejs.svg"
+                alt="nodejs"
+                width="130px"
+                height="130px"
+            /></a>
+            <a class="about__link" href="#"
+              ><img
+                class="about__img"
+                src="./images/react.svg"
+                alt="nodejs"
+                width="130px"
+                height="130px"
+            /></a>
+            <h2 class="about__tatle">About me</h2>
+            <div class="about__ellipse1"></div>
+            <div class="about__ellipse2"></div>
+            <div class="about__ellipse3"></div>
+            <div class="about__block"></div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
