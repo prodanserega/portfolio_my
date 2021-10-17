@@ -263,3 +263,26 @@ h5 {
 
   color: #ffffff;
 }
+/* contact */
+.contact {
+  width: 100%;
+
+  background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+}
+.contact__unit {
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contact__item {
+  list-style: none;
+}
+
+.contact__item:nth-child(n) {
+  margin-bottom: 18px;
+}
+
+/* .contact__nav {
+  display: block;
+  flex-direction: column;
+} */
