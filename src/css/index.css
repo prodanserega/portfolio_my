@@ -269,20 +269,64 @@ h5 {
 
   background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
 }
+
+.contact__inner {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
 .contact__unit {
   margin: 0;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-right: 400px;
 }
 .contact__item {
   list-style: none;
-}
-
-.contact__item:nth-child(n) {
   margin-bottom: 18px;
 }
 
-/* .contact__nav {
-  display: block;
-  flex-direction: column;
-} */
+.contact__item:last-child {
+  margin-bottom: 0;
+}
+
+.contact__link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #e4e4e4;
+  text-decoration: none;
+  transition: color 0.2s linear;
+}
+
+.contact__link:hover {
+  color: green;
+}
+
+.contact__contacts_unit {
+  margin: 0;
+  padding: 0;
+}
+
+.contact__contacts_item {
+  list-style: none;
+  margin-bottom: 18px;
+}
+
+.contact__text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #e4e4e4;
+}
+
+.contact__contacts_item_link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #e4e4e4;
+  text-decoration: none;
+  transition: color 0.2s linear;
+}
+
+.contact__contacts_item_link:hover {
+  color: green;
+}
