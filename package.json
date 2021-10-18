@@ -6,7 +6,7 @@
   "homepage": "https://prodanserega.github.io/portfolio_my",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/",
+    "build": "parcel build src/*.html --public-url /portfolio_my/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
