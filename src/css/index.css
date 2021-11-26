@@ -32,7 +32,7 @@ h5 {
 /* hero */
 .hero {
   width: 100%;
-  height: 100vh;
+  padding-bottom: 20px;
   background: #2c2c2c;
 }
 .hero__inner {
@@ -78,7 +78,7 @@ h5 {
 .hero__ellipse {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 10px;
 
   width: 400px;
   height: 400px;
@@ -243,6 +243,36 @@ h5 {
   color: #ffffff;
 }
 
+/* .about__block_foto {
+  background-color: #2c2c2c;
+  padding: 20px;
+  display: inline-block;
+  position: absolute;
+  bottom: -50px;
+  left: 12px;
+  border-radius: 5%;
+} */
+
+/* .about__foto {
+  width: 300px;
+  height: 300px;
+}
+
+.about__block_foto2 {
+  background-color: #2c2c2c;
+  padding: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 530px;
+  right: -38px;
+  border-radius: 5%;
+}
+
+.about__foto2 {
+  width: 550px;
+  height: 700px;
+} */
+
 /* portfolio */
 
 .portfolio {
@@ -263,35 +293,35 @@ h5 {
 
   color: #ffffff;
 }
-/* contact */
-.contact {
+/* contacts */
+.contacts {
   width: 100%;
 
   background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
 }
 
-.contact__inner {
+.contacts__inner {
   display: flex;
   align-items: baseline;
   justify-content: center;
 }
 
-.contact__unit {
+.contacts__unit {
   margin: 0;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-right: 400px;
 }
-.contact__item {
+.contacts__item {
   list-style: none;
   margin-bottom: 18px;
 }
 
-.contact__item:last-child {
+.contacts__item:last-child {
   margin-bottom: 0;
 }
 
-.contact__link {
+.contacts__link {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #e4e4e4;
@@ -299,27 +329,27 @@ h5 {
   transition: color 0.2s linear;
 }
 
-.contact__link:hover {
+.contacts__link:hover {
   color: green;
 }
 
-.contact__contacts_unit {
+.contacts__contacts_unit {
   margin: 0;
   padding: 0;
 }
 
-.contact__contacts_item {
+.contacts__contacts_item {
   list-style: none;
   margin-bottom: 18px;
 }
 
-.contact__text {
+.contacts__text {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #e4e4e4;
 }
 
-.contact__contacts_item_link {
+.contacts__contacts_item_link {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #e4e4e4;
@@ -327,6 +357,6 @@ h5 {
   transition: color 0.2s linear;
 }
 
-.contact__contacts_item_link:hover {
+.contacts__contacts_item_link:hover {
   color: green;
 }
