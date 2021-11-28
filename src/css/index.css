@@ -292,7 +292,31 @@ h5 {
   color: #ffffff;
 }
 
-.portfolio__block {
+.portfolio__block1 {
+  padding: 50px;
+
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+  background-color: #2c2c2c;
+  box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+  border-radius: 29px;
+}
+.portfolio__block2 {
+  padding: 50px;
+
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+  background-color: #2c2c2c;
+  box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+  border-radius: 29px;
+}
+.portfolio__block3 {
   padding: 50px;
 
   margin-top: 50px;
@@ -307,6 +331,11 @@ h5 {
 .portfolio__content {
   margin: 0 auto;
   text-align: center;
+}
+
+.swiper {
+  width: 100%;
+  height: 490px;
 }
 
 .portfolio__tatle_img {
@@ -338,7 +367,7 @@ h5 {
   color: #ffffff;
 }
 
-.overlay {
+/* .overlay {
   position: absolute;
   width: 400px;
   height: 100%;
@@ -354,7 +383,7 @@ h5 {
 .overlay-container {
   position: relative;
   /* overflow: hidden; */
-}
+/* } */
 
 /* contacts */
 .contacts {
